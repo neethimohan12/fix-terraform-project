@@ -33,7 +33,7 @@ phases:
 
   post_build:
     commands:
-      - echo "Terraform deployment completed successfully."
+      - echo "Terraform deployment completed successfuly."
       - terraform output
 
 artifacts:
